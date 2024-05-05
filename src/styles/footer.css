@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Inter2;
+    src: url('../../public/fonts/Inter-Regular.ttf');
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    width: 100%;
+    font-family: Inter2;
+}
+
+.social {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10%;
+    padding-left: 78px;
+}
+
+
+.social-img {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 170px;
+    cursor: pointer;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+
+}
+
+
+.information {
+    display: flex;
+    width: 50%;
+    font-family: Inter2;
+}
+
+
+.company-information h1 {
+    color: rgb(28, 23, 37);
+}
+
+
+.legal-information {
+    margin-left: 230px;
+
+}

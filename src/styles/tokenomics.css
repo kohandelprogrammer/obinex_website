@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Inter2;
+    src: url('../../public/fonts/Inter-Regular.ttf');
+}
+
+.tokenomics {
+    margin-top: 300px;
+}
+
+
+.tokenomics-desc {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    color: rgb(92, 95, 103);
+}
+
+
+.tokenomics-desc h1 {
+    font-size: 32px;
+    font-family: Inter;
+}
+
+
+.tokenomics-desc p {
+    font-family: Inter;
+    font-size: 20px;
+}

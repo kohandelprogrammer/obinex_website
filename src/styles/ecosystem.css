@@ -1,0 +1,93 @@
+.ecosystem h1 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 42px;
+    color: rgb(65, 81, 98);
+}
+
+.ecosystem-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+* h3 {
+    color: rgb(65, 81, 98);
+    font-family: Inter;
+}
+
+* p {
+    font-family: Inter;
+    color: rgb(65, 81, 98);
+
+}
+
+.list-item1 {
+    padding: 21px 24px 17px 17px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(12.5px);
+    margin-right: 20px;
+    width: 350px;
+    height: 410px;
+}
+
+.item-item1 img {
+    position: absolute;
+}
+
+.list-item2 div:first-child {
+    padding: 20px 20px 10px 10px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(12.5px);
+    margin: 0 10px 10px 0;
+    width: 320px;
+    height: 230px;
+}
+
+.list-item2 div:last-child {
+    padding: 20px 20px 10px 10px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(12.5px);
+    width: 320px;
+    height: 230px;
+}
+
+.list-item3 div:first-child {
+    padding: 20px 20px 10px 10px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(12.5px);
+    margin: 0 10px 10px 0;
+    width: 320px;
+    height: 230px;
+}
+
+.list-item3 div:last-child {
+    padding: 20px 20px 10px 10px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(12.5px);
+    width: 320px;
+    height: 230px;
+
+}
+
+.list-item4 {
+    padding: 21px 24px 17px 17px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(12.5px);
+    margin-left: 10px;
+    width: 350px;
+    height: 410px;
+}

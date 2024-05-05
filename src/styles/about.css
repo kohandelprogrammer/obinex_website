@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Inter2;
+    src: url('../../public/fonts/Inter-Regular.ttf');
+}
+
+.about {
+    margin-top: 200px;
+}
+
+.about h1 {
+    text-align: center;
+    color: rgb(65, 81, 98);
+    font-family: Inter2;
+    margin-bottom: 40px;
+}
+
+.about-list {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter2;
+    width: 100%;
+}
+
+.aboutItem1 {
+    background-color: rgba(14, 135, 248, 0.21);
+    box-shadow: rgba(0, 0, 0, 0.15) -10px 30px 71.5px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(12.5px);
+    border-radius: 40px;
+    padding: 21px 24px 17px 17px;
+    align-items: center;
+    position: relative;
+    height: 310px;
+    width: 325px;
+    left: 10px;
+}
+
+.aboutItem2 {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: rgba(0, 0, 0, 0.15) -10px 30px 71.5px 10px;
+    backdrop-filter: blur(12.5px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 40px;
+    padding: 21px 24px 17px 17px;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    height: 370px;
+    width: 370px;
+}
+
+.aboutItem3 {
+    background-color: rgba(255, 50, 247, 0.22);
+    box-shadow: rgba(0, 0, 0, 0.15) -10px 30px 71.5px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 40px;
+    padding: 21px 24px 17px 17px;
+    align-items: center;
+    position: relative;
+    height: 320px;
+    width: 325px;
+    right: 10px;
+}
+
+.about-list p {
+    text-align: center;
+    line-height: 22px;
+    font-size: 19px;
+    font-family: Inter2;
+
+}
+
+.itemImg3 {
+    position: absolute;
+    translate: 73px 45px;
+}
+
+.itemImg1 {
+    position: absolute;
+    translate: 73px 45px;
+}

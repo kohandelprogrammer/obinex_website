@@ -1,0 +1,33 @@
+.company {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+.companyItem1 {
+    width: 70px;
+    height: 40px;
+}
+
+.companyItem2 {
+    width: 205px;
+    height: 50px;
+}
+
+.companyItem3 {
+    width: 265px;
+    height: 55px;
+}
+
+.companyItem4 {
+    width: 200px;
+    height: 60px;
+}
+
+.companyItem5 {
+    width: 90px;
+    height: 60px;
+}

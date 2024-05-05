@@ -1,0 +1,70 @@
+@font-face {
+    font-family: GothamLight;
+    src: url('../../public/fonts/GothamLight.ttf');
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px 0;
+    align-self: center;
+    margin: auto;
+    position: fixed;
+    z-index: 10;
+    font-family: GothamLight;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 1300px;
+    height: 16px;
+    backdrop-filter: blur(6.2px);
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-content img {
+    cursor: pointer;
+
+}
+
+.navbar-menu {
+    display: flex;
+}
+
+.navbar-menu li {
+    color: black;
+    list-style: none;
+    padding: 5px;
+}
+
+.navbar-menu li:hover {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+* a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-button {
+    margin-left: 35px;
+}
+
+.navbar-button button {
+    color: #fff;
+    background-color: rgb(0, 173, 238);
+    border-radius: 50px;
+    border: none;
+    padding: 5px;
+    width: 130px;
+    height: 25px;
+    cursor: pointer;
+
+}

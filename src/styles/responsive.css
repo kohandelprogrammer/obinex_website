@@ -1,0 +1,11 @@
+@media screen and (max-width:1317px) {
+    .navbar {
+        width: 1100px;
+        margin: auto;
+        align-items: center;
+    }
+
+    .future {
+        width: 1100px;
+    }
+}

@@ -1,0 +1,67 @@
+.team {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.team h1 {
+    color: rgb(65, 81, 98);
+    text-align: center;
+    font-family: Inter;
+    font-size: 43px;
+    font-weight: 700;
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-content {
+    margin-right: 50px;
+}
+
+.team-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-item {
+    box-sizing: border-box;
+}
+
+.icon-item {
+    box-sizing: border-box;
+}
+
+.team-item p:first-child {
+    color: rgb(146, 146, 146);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+
+}
+
+.team-item p:last-child {
+    color: var(--titles, #0f172a);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+.team button {
+    padding: 20px 48px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, rgb(255, 137, 180) 0%, rgb(224, 100, 255) 100%);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    border: none;
+    margin-top: 100px;
+}

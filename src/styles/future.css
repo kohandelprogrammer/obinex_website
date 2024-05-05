@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Inter1;
+    src: url('../../public/fonts/Inter-Black.ttf');
+}
+
+@font-face {
+    font-family: Inter2;
+    src: url('../../public/fonts/Inter-Regular.ttf');
+}
+
+.future {
+    display: flex;
+    width: 100%;
+    margin-top: 200px;
+
+}
+
+.future-text {
+    width: 400px;
+}
+
+.future-text h3 {
+    line-height: 90px;
+    font-size: 64px;
+    color: #0f172a;
+    margin: 0;
+    font-family: Inter1;
+}
+
+.future-text :nth-child(2) {
+    color: rgb(255, 0, 245);
+    font-weight: 900;
+    font-size: 128px;
+}
+
+.future-text p {
+    font-family: Inter2;
+    font-size: 20px;
+}
+
+.future-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 45px;
+    margin: 0;
+}
+
+.future-icon {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.future-img img :nth-child(1) {
+    z-index: 1;
+    position: relative;
+
+}
+
+.future-img img :nth-child(2) {
+    position: absolute;
+    transform: (-300px);
+}
+
+.future-img img:nth-child(3) {
+    position: absolute;
+    transform: (100px);
+}
+
+
+
+
+.img-cloud {
+    position: relative;
+    bottom: 450px;
+
+}
+
+.img-cloud img {
+    position: absolute;
+    z-index: 2;
+}
+
+.img-cloud img:first-child {
+    right: 37px;
+    top: 60px;
+
+}
+
+.img-cloud img:last-child {
+    left: 250px;
+    top: 150px;
+}
